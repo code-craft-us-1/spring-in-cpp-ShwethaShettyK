@@ -22,7 +22,7 @@ TEST(Statistics, AverageNaNForEmpty) {
 
     EXPECT_TRUE(std::isnan(s.average));
     EXPECT_TRUE(std::isnan(s.min));
-    EXPECT_TRUE(isnan(s.max));
+    EXPECT_TRUE(std::isnan(s.max));
 
 }
 
